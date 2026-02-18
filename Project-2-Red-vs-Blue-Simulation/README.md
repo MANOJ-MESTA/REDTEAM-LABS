@@ -2,12 +2,12 @@
 # Red Team vs Blue Team Simulation
 
 This project demonstrates a full attack-and-detect cycle in a controlled lab environment, highlighting both offensive techniques and defensive gaps.
-# 🎯 Active Directory Red vs Blue Team Simulation
+#  Active Directory Red vs Blue Team Simulation
 
-## 📋 Project Overview
+##  Project Overview
 A complete enterprise-grade Active Directory lab built from scratch to simulate real-world attacks and defensive detection. This project demonstrates the full attack lifecycle from initial access to domain compromise, with corresponding Blue Team detection and MITRE ATT&CK mapping.
 
-## 🏗️ Lab Architecture
+## Lab Architecture
 ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
 │ KALI │ │ DC01 │ │ WIN10-CLIENT │
 │ 192.168.56.30 │────│ 192.168.56.10 │────│ 192.168.56.20 │
@@ -20,7 +20,7 @@ Internal Network: AD-Lab
 
 text
 
-## 📁 Repository Structure
+##  Repository Structure
 ├── 00-Lab-Setup/ # Environment architecture & configuration
 ├── 01-Red-Team-Attack/ # Attack techniques & commands used
 ├── 02-Blue-Team-Detection/ # Logs, alerts, and detection methods
@@ -31,18 +31,18 @@ text
 
 text
 
-## 🎯 Key Achievements
-✅ Built isolated AD environment with Windows Server 2019 DC  
-✅ Created vulnerable domain with intentional misconfigurations  
-✅ Performed password spraying → Domain Admin compromise  
-✅ Dumped NTDS.dit with all domain user hashes  
-✅ Cracked passwords: john.doe, it.admin, svc.backup  
-✅ Lateral movement to WIN10 via Pass-the-Hash  
-✅ wmiexec shell on remote workstation  
-✅ Analyzed Windows Event Logs for attack evidence  
-✅ Mapped all techniques to MITRE ATT&CK
+##  Key Achievements
+Built isolated AD environment with Windows Server 2019 DC  
+ Created vulnerable domain with intentional misconfigurations  
+ Performed password spraying → Domain Admin compromise  
+ Dumped NTDS.dit with all domain user hashes  
+ Cracked passwords: john.doe, it.admin, svc.backup  
+ Lateral movement to WIN10 via Pass-the-Hash  
+ wmiexec shell on remote workstation  
+ Analyzed Windows Event Logs for attack evidence  
+ Mapped all techniques to MITRE ATT&CK
 
-## 🛠️ Tools Used
+##  Tools Used
 | Category | Tools |
 |----------|-------|
 | **Recon** | Nmap, enum4linux-ng |
@@ -51,13 +51,13 @@ text
 | **Password Cracking** | John the Ripper |
 | **Detection** | Windows Event Viewer, PowerShell |
 
-## 📸 Screenshots
+##  Screenshots
 ![Lab Topology](screenshots/lab-topology.png)
 ![Domain Compromise](screenshots/pwn3d.png)
 ![NTDS Dump](screenshots/ntds-dump.png)
 ![Lateral Movement](screenshots/wmiexec-shell.png)
 
-## ⚠️ Disclaimer
+##  Disclaimer
 This project was created for **educational purposes only**. All techniques demonstrated should only be used in authorized environments with proper permissions.
 
 ## 👨‍💻 Author
