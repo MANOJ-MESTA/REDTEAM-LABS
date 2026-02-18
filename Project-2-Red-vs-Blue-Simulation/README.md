@@ -18,7 +18,7 @@ A complete enterprise-grade Active Directory lab built from scratch to simulate 
 Internal Network: AD-Lab
 192.168.56.0/24
 
-text
+
 
 ##  Repository Structure
 ├── 00-Lab-Setup/ # Environment architecture & configuration
