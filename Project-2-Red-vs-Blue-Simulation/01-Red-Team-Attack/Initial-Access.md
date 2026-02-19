@@ -21,5 +21,4 @@ text
 💥 Success
 Found valid Domain Admin credentials! This provided full access to the domain controller.
 
-📸 Evidence
-https://screenshots/pwn3d.png
+
