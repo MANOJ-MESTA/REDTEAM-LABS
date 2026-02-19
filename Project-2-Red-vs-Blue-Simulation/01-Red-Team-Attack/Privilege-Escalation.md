@@ -1,6 +1,6 @@
-### **File: `01-Red-Team-Attack/Privilege-Escalation.md`**
-```markdown
-# ⬆️ Privilege Escalation & Credential Dumping
+
+
+ Privilege Escalation & Credential Dumping
 
 ## Objective
 With Domain Admin access, extract all domain user password hashes.
@@ -36,6 +36,6 @@ User	Hash	Password
 Administrator	6de00c52...	password@123
 john.doe	a29f7623...	Password123
 it.admin	570a9a65...	Admin@123
-📸 Evidence
+ Evidence
 https://screenshots/ntds-dump.png
 https://screenshots/cracked-hashes.png
