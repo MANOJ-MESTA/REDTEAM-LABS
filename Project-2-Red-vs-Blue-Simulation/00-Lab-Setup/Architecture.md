@@ -11,7 +11,7 @@ The lab simulates a small enterprise environment to demonstrate both red team at
 
 ### Objective
 Simulate realistic attacks and analyze how defensive controls respond.
-# 🏗️ Lab Architecture
+# Lab Architecture
 
 ## Virtual Machine Specifications
 | VM | OS | IP Address | Role |
@@ -42,5 +42,4 @@ Simulate realistic attacks and analyze how defensive controls respond.
 - SMBv1 enabled
 - Firewall disabled for lab
 
-## 📸 Screenshots
-![Network Connectivity](screenshots/ping-test.png)
+
