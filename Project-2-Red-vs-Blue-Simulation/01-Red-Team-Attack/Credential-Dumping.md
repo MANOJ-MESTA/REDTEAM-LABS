@@ -76,4 +76,4 @@ Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4662} |
     Format-Table TimeCreated, Message -AutoSize
  Evidence
 https://../screenshots/03-ntds-dump.png
-https://../screenshots/05-cracked-hashes.png
+[https://../screenshots/05-cracked-hashes.png](https://github.com/MANOJ-MESTA/REDTEAM-LABS/blob/main/Project-2-Red-vs-Blue-Simulation/screenshots/cracked-hashes.png?raw=true)
