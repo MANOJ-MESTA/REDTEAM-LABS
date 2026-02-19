@@ -31,5 +31,4 @@ Verified domain trust
 
 Confirmed no additional security controls
 
-📸 Evidence
-https://screenshots/wmiexec-shell.png
+
