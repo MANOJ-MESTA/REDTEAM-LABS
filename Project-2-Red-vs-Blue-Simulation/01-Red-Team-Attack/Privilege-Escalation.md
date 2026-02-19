@@ -36,6 +36,4 @@ User	Hash	Password
 Administrator	6de00c52...	password@123
 john.doe	a29f7623...	Password123
 it.admin	570a9a65...	Admin@123
- Evidence
-https://screenshots/ntds-dump.png
-https://screenshots/cracked-hashes.png
+ 
