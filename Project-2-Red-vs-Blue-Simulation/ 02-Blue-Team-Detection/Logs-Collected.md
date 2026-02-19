@@ -26,5 +26,3 @@ Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4624} -MaxEvents 5 |
 Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4688} -MaxEvents 10 |
     Where-Object {$_.Message -like "*wmiexec*" -or $_.Message -like "*crackmapexec*"} |
     Format-Table TimeCreated, Message -AutoSize
-📸 Evidence
-https://screenshots/event-logs.png
